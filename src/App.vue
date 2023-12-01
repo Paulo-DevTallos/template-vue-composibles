@@ -1,6 +1,10 @@
 <template>
-  <NavBar />
-  <RouterView />
+  <div>
+    <NavBar />
+    <div class="flex justify-center mt-12 w-full">
+      <RouterView />
+    </div>
+  </div>
 </template>
 
 <script setup>
