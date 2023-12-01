@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="font-sans text-xl text-center mb-6">Lista de produtos</h1>
+    <h1 class="font-sans text-xl text-center mb-6">Carrinho</h1>
 
     <div class="w-full pb-6 grid gap-4 grid-cols-3"> 
       <div v-for="product in cart" :key="product.id" class="relative mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
